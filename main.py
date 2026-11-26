@@ -12,7 +12,7 @@ shipping the wrong thing.
 Rules enforced here:
 - the line must be a single line, never blank;
 - its length must sit inside the competition gate (MIN_LEN..MAX_LEN).
-The line is 82 characters, inside the winners' one-liner band
+The line is 84 characters, inside the winners' one-liner band
 (55-85% of the 140 cap): one concrete cause, one specific detail,
 dark reversal in the last words.
 """
@@ -21,7 +21,7 @@ import os
 
 # The entry itself. Do not touch this string: it is the submission.
 ENTRY = (
-    "All 412 tests pass — they test the mock, not the product. The users noticed first."
+    "All 1,204 tests pass — they test the mock, not the product. The users noticed first."
 )
 
 MIN_LEN = 1
